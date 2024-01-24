@@ -1,5 +1,6 @@
 import React, { useRef,useState,useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import '../src/New.css'
 
 
 export default function New() {

@@ -1,0 +1,55 @@
+/*  Fake Store */
+
+
+.Fake-Store {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .Fake-Store  h1 {
+    text-align: center;
+  }
+  
+  .Fake-Store  .product-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Fake-Store  .product-item {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 250px;
+    text-align: center;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 7px;
+    background-color: blueviolet;
+    border-radius: 5px ;
+    border: 1px solid rgb(183, 116, 116);
+  }
+  
+  
+  .Fake-Store  .product-details {
+    margin-top: 10px;
+   
+    
+  }
+  
+  .Fake-Store  .product-image {
+    width: 70%;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  
