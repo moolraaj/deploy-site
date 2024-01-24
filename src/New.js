@@ -1,7 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
- 
-
 
 export default function New() {
     const form = useRef();
@@ -17,10 +15,6 @@ export default function New() {
             console.log(error.text);
         });
     };
-
-
-
-     
   return (
      <>
       <form ref={form} onSubmit={sendEmail}>
@@ -35,7 +29,8 @@ export default function New() {
       <input type="submit" value="Send" />
       
     </form>
-     <h1>Hello Raaj sir</h1>
+    
+     
      </>
   )
 }
