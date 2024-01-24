@@ -51,26 +51,7 @@ export default function New() {
     </form>
      <h1>Hello Raaj sir</h1>
 
-
-
-
-
-
-     <div className="Fake-Store">
-      <h1>Fake Store Products</h1>
-      <ul className="product-list">
-        {fakeStore.map(product => (
-          <li key={product.id} className="product-item">
-            <img src={product.image} alt="prodImg" className="product-image" />
-            <div className="product-details">
-              <h2>{product.title}</h2>
-              <p>{product.description}</p>
-              <p>Price: ${product.price}</p>
-            </div>
-          </li>
-        ))}
-      </ul>
-      </div>
+   
      </>
   )
 }
