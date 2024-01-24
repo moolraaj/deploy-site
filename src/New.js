@@ -36,8 +36,6 @@ export default function New() {
       
     </form>
      <h1>Hello Raaj sir</h1>
-
-   
      </>
   )
 }
