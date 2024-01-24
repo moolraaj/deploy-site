@@ -1,4 +1,4 @@
-import React, { useRef,useState,useEffect } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import '../src/New.css'
 
@@ -20,21 +20,7 @@ export default function New() {
 
 
 
-    const [fakeStore, setFakeStore] = useState([]);
-
-    const fetchData = async () => {
-      try {
-        const response = await fetch('https://fakestoreapi.com/products');
-        const data = await response.json();
-        setFakeStore(data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-  
-    useEffect(() => {
-      fetchData();
-    }, []);
+     
   return (
      <>
       <form ref={form} onSubmit={sendEmail}>
